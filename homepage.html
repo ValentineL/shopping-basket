@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/Logo.png">
+        </div>
+        <div class="rightItems">
+            <div class="cart" onClick="location.href='shoppingCart.html'"></div>
+            <div class="displayInline totalPriceStyling">
+                £59.00
+            </div>
+            <div class="favorites"></div>
+        </div>
+    </div>
+    <div class="mainPage">
+        <div class="productImage">
+            <img id="productImage" src="images/Layer-5.png">
+        </div>
+        <div class="productDetails">
+            <div class="row1 rowStyle">
+                <div class="displayInline">
+                    LOREM
+                </div>
+                <div class="displayInline productCode">
+                    Lorem Ipsum: 4718206
+                </div>
+            </div>
+            <div class="row2 rowStyle">
+                Lorem Ipsum
+            </div>
+            <div class="row3 rowStyle" data-name="Sony Playstation" data-price="12.99">
+                <div class="priceTag displayInline">
+                    <div class="price">
+                        <div class="displayInline">
+                            <del>£20.99</del>
+                        </div>
+                        <div class="displayInline">
+                            £12.99
+                        </div>
+                    </div>
+                    <div class="rrp">
+                        RRP: £27.990 (Lorem ipsum 20%)
+                    </div>
+                </div>
+                <form type="submit" method="post" class="addToBasketButton displayInline">
+                    <button type="submit">Add To Basket</button>
+                </form>
+            </div>
+            <div class="row4 rowStyle">
+                <div class="displayInline">
+                    LOREM IPSUM:
+                </div>
+                <div class="displayInline">
+                    UK
+                </div>
+                <div class="displayInline">
+                    Change
+                </div>
+            </div>
+            <div class="row5 rowStyle">
+                In stock. More than 10 available online. Order in the next 10 mins for next day delivery.
+            </div>
+            <div class="row6 rowStyle">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+            </div>
+            <div class="row7 rowStyle">
+                <ul>
+                    <li>Brand: Lorem</li>
+                    <li>Model:#54057583</li>
+                    <li>Material: Lorem ipsum</li>
+                    <li>Dimensions model: Lorem ipsum</li>
+                </ul>
+            </div>
+            <div class="greyLine"></div>
+            <div class="row8 rowStyle">
+                <div class="ratingStars displayInline">
+                    <img src="images/Rating.png">
+                </div>
+                <div class="ratingNumber displayInline">
+                    4.5 / 5
+                </div>
+                <div class="totalVotes displayInline">
+                    <b>112</b> Lorem ipsum
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottomPanel">
+        <div class="displayInline bottomPanelSegment">
+            <div class="displayInline">
+                <img src="images/Layer-4.png">
+            </div>
+            <div class="displayInline textStyle">
+                Lorem ipsum
+            </div>
+        </div>
+        <div class="displayInline bottomPanelSegment">
+            <div class="displayInline">
+                <img src="images/Layer-6.png">
+            </div>
+            <div class="displayInline textStyle">
+                Lorem ipsum
+            </div>
+        </div>
+        <div class="displayInline bottomPanelSegment">
+            <div>
+                Lorem ipsum
+            </div>
+            <div class="fontSize28">
+                £120.00
+            </div>
+        </div>
+        <div class="displayInline bottomPanelSegment">
+            <div class="paymentTextStyle">
+                Lorem ipsum
+            </div>
+            <div>
+                <div class="displayInline">
+                    <img src="images/Visa.png">
+                </div>
+                <div class="displayInline">
+                    <img src="images/Mastercard.png">
+                </div>
+                <div class="displayInline">
+                    <img src="images/Paypal.png">
+                </div>
+                <div class="displayInline">
+                    <img src="images/American-Express.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerSegment blueLine">
+            <div class="colorWhite">LOREM IPSUM</div>
+        </div>
+        <div class="footerSegment">
+            <div>LOREM IPSUM</div>
+            <div class=""></div>
+        </div>
+        <div class="footerSegment">
+            <div>LOREM IPSUM</div>
+            <div class=""></div>
+        </div>
+        <div class="footerSegment">
+            <div>LOREM IPSUM</div>
+            <div class=""></div>
+        </div>
+        <div class="footerSegment">
+            <div>LOREM IPSUM</div>
+            <div class=""></div>
+        </div>
+    </div>
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="scripts/scripts.js"></script>
+<script src="node_modules/ez-plus/src/jquery.ez-plus.js"></script>
+<script>
+    $('#productImage').ezPlus();
+</script>
+</html>
